@@ -4,7 +4,9 @@ int main(void)
 {
 	int	a;
 
-	printf("Hello World!\n");
+	a = 1;
+
+	printf("a = %d\n", a);
 
 	return 0;
 }
