@@ -2,12 +2,7 @@
 
 int main(void)
 {
-	int	a;
-
-	a = 1;
-
-	printf("a = %d\n", a);
-	printf("Easy\n");
+	printf("Hello World!\n");
 
 	return 0;
 }
