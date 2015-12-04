@@ -35,9 +35,9 @@ int main(void)
 {
 	char Str[1024];
 	int i,j;
-
-//	scanf("%s", Str);
-	gets(Str);
+//Using fgets to avoid the warning of using gets.
+	fgets(Str, sizeof(char)*1024, stdin);
+//	gets(Str);
 
 	pEsp = 0;
 	i = 0;
@@ -56,6 +56,7 @@ int main(void)
 	}
 	Str[j] = '\0';
 
+//	fputs(Str, stdout);
 	puts(Str);
 
 	return 0;
